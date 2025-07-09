@@ -1,0 +1,52 @@
+/* Universal selector  */
+* {
+  margin: 0;
+  /* Padding : 0; */
+}
+
+/* element selector */
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+}
+
+/* class selector */
+.Ul {
+  background-color: rgb(234, 192, 136);
+}
+
+/* id selector */
+#li1 {
+  background-color: rgb(146, 129, 62);
+}
+/* group selector */
+#li2,
+#li3,
+.Para {
+  background-color: rgb(198, 166, 120);
+}
+
+/* attribute selector  */
+[placeholder] {
+  background-color: rgb(57, 210, 193);
+}
+
+/* descendant selector  */
+.Ul li {
+  color: rgb(251, 255, 0);
+  font-size: 20px;
+  font-style: italic;
+}
+
+/* child selector */
+.Ul > li {
+  font-style: oblique;
+  color: azure;
+}
+
+.ol > li {
+  background-color: rgb(255, 180, 127);
+}
