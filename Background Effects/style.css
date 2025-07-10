@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    color:brown;
+}
+
+body{
+    background-color: yellow;
+    background-image: url("Assets/image.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-img{
+    height: 50vh;
+    width: 50vh;
+    background-image: url("Assets/image2.png");
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+
+.g1{
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(to top, white, red, white);
+}
+
+.g2{
+    height: 100px;
+    width: 100px;
+    background-image: radial-gradient(blue,yellow);
+}
+
+.g3{
+    height: 100px;
+    width: 100px;
+    background-image: conic-gradient(purple, orange, black, gray, white)
+}
+
+.g4{
+    height: 30vh;
+    width: 40vh;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient{
+    10%{background-color: gold;}
+    40%{background-color: yellow;}
+    20%{background-color: white;}
+    40%{background-color: yellow;}
+    10%{background-color: gold;}
+    
+}
